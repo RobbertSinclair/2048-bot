@@ -2,7 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import random
 import time
-#Open the Chrome Browser
+#Open the Chrome Browser you will need a webdriver in
+#order for this to work
 browser = webdriver.Chrome()
 #This list will store all of the scores that the bot gets
 score_list = []
